@@ -1,13 +1,13 @@
 {
-    "name": "sylius/plugin-skeleton",
+    "name": "opositatest/opositatest-sylius-redsys-plugin",
     "type": "sylius-plugin",
     "description": "Redsys plugin for Sylius.",
     "license": "MIT",
     "require": {
-        "php": "^5.6|^7.0",
+        "php": ">=5.3.3",
 
-        "sylius/sylius": "^1.0.0@beta",
-        "crevillo/payum-redsys": "^1.0"
+        "sylius/sylius": "^1.0.8",
+        "crevillo/payum-redsys": "^1.0.1"
     },
     "require-dev": {
         "behat/behat": "^3.3",
